@@ -2,15 +2,9 @@
 
 namespace OAuth2\Model;
 
-interface IOAuth2Client
-{
-    /**
-     * @return string
-     */
-    public function getPublicId();
+interface IOAuth2Client {
 
-    /**
-     * @return array
-     */
+    public function getPublicId();
     public function getRedirectUris();
 }
+
